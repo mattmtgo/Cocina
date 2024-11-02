@@ -3,19 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cocina Conciente</title>
-    <link rel="stylesheet" href="Styles.css">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <div class="background-image"></div>
-
-        <h2>Help your path to health goals with happiness</h2>
-
-        <button class="login" onclick="login()">Inicia Sesion</button>
-        <button class="register" onclick="register()">Crea una cuenta</button>
-    </div>
-
-    <script src="script.js"></script>
+    <header>
+        <p>🌞 Good Morning</p>
+        <h1>Alena Sabyan</h1>
+        <div class="icons">
+            <span class="search-icon">🔍</span>
+            <span class="cart-icon">🛒</span>
+        </div>
+    </header>
+    
+    <section class="featured">
+        <h2>Featured</h2>
+        <div class="featured-cards">
+            <div class="featured-card">
+                <img src="noodles.jpg" alt="Noodles" class="featured-img">
+                <div class="featured-info">
+                    <h3>Asian white noodle with extra seafood</h3>
+                    <p class="author">James Spader</p>
+                    <p class="time">20 Min</p>
+                </div>
+            </div>
+            <div class="featured-card">
+                <img src="healthy.jpg" alt="Healthy Food" class="featured-img">
+                <div class="featured-info">
+                    <h3>Healthy Salad with fresh vegetables</h3>
+                    <p class="author">Olivia James</p>
+                    <p class="time">15 Min</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="category">
+        <h2>Category</h2>
+        <div class="category-buttons">
+            <button>Breakfast</button>
+            <button>Lunch</button>
+            <button>Dinner</button>
+        </div>
+    </section>
+    
+    <section class="popular">
+        <h2>Popular Recipes</h2>
+        <div class="popular-recipes">
+            <div class="recipe-card">
+                <img src="taco.jpg" alt="Taco Salad">
+                <h3>Healthy Taco Salad with fresh vegetables</h3>
+                <p>120 Kcal - 4.8⭐️</p>
+            </div>
+            <div class="recipe-card">
+                <img src="pancakes.jpg" alt="Pancakes">
+                <h3>Japanese-style Pancakes Recipe</h3>
+                <p>84 Kcal - 4.6⭐️</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
